@@ -203,3 +203,10 @@ a {
     width: auto;
     margin: 15px;
 }
+
+#footer {
+   background: #111; 
+   color: white;
+   display: flex;
+   justify-content: flex-end;
+}
