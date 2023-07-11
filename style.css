@@ -56,6 +56,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -67,10 +68,20 @@ a {
     display: flex;
     list-style: none;
     text-transform: uppercase;
+    padding: 0 5px;
+    font-weight: bold;
 }
+
 
 #navbar-items li {
     padding: 10px;
+    transition:all 3ms ease;
+}
+
+#navbar-items li:hover {
+    color: rgb(133, 41, 151);
+    transition:all 3ms ease;
+    cursor: pointer;    
 }
 
 #showcase {
@@ -84,6 +95,7 @@ a {
     background-color: rgba(0, 0, 0, 0, 5);
     background-blend-mode: color;
 }
+
 
 #showcase-container {
     text-align: center;
